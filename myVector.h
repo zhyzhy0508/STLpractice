@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 template <typename T>
-
+//模板类 定义只能写在头文件中吗？
 class myVector{
 public:
     myVector():p(nullptr),_capacity(0),_size(0){};
